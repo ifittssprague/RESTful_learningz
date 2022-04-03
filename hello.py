@@ -13,4 +13,5 @@ def hello_world():
 # > export FLASK_APP=hello.py
 # > flask run
 
-# app can then be accessed from
+# app can then be accessed from:  http://127.0.0.1:5000/
+
