@@ -27,3 +27,6 @@ curl -X POST -H "Content-Type: application/json" -d '{
 ```
 curl http://localhost:5000/incomes
 ```
+
+#### A majority of the learnings in this repo are from the following super helpful guide:
+https://auth0.com/blog/developing-restful-apis-with-python-and-flask/
