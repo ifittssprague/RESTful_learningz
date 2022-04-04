@@ -1,6 +1,6 @@
 from marshmallow import post_load
 from .transaction import Transaction, TransactionSchema
-from .transaction import TransactionType
+from .transaction_type import TransactionType
 
 class Income(Transaction):
     def __init__(self, description, amount):
