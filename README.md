@@ -14,6 +14,14 @@ pipenv install
 
 Then you can issue requests to your API. For example, with curl, you can issue requests like that:
 
+## Utilizing Docker
+
+If you have Docker installed, the API can also be run on a Docker container. After running the `pipenv install` command listed above, you will also need to install docker on the virtual enviroment. 
+
+After Docker has been installed, this API can be hosted on a Docker container by running the command.
+```
+docker build -t banking .
+```
 
 ### inserting a new income
 ```
